@@ -22,7 +22,7 @@ mongoose.connect(uri, {
 const connection = mongoose.connection
 
 connection.once('open', () => {
-	console.log(`MongoDB connection established successfully!!!`)
+	console.log(Date() + ` MongoDB connection established successfully!!!`)
 })
 
 
