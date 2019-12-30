@@ -1,0 +1,8 @@
+{
+    "name": "ex-tracker",
+    "version": 2,
+    "env": {
+      "atlas_uri": "@atlas_uri"
+    }
+  }
+  
